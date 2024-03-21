@@ -50,5 +50,10 @@ yarn dev
 这些步骤应该足以让你在 Vite 项目中开始使用 SCSS。如果你遇到任何问题，确保你的 Vite 和依赖都更新到了最新版本，并且检查 Vite 的文档中关于 CSS 预处理器的部分。
 ```
 
+```html
+参考：https://blog.csdn.net/weixin_44857463/article/details/129273593?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22129273593%22%2C%22source%22%3A%22weixin_44857463%22%7D
+```
 
-## 参考：https://blog.csdn.net/weixin_44857463/article/details/129273593?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22129273593%22%2C%22source%22%3A%22weixin_44857463%22%7D
+```html
+参考：https://github.com/hawk86104/vue3-ts-cesium-map-show/blob/master/src/utils/ctrlCesium/Controller.ts
+```
