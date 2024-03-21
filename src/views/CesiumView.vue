@@ -18,7 +18,9 @@ onMounted(() => {
     // 指定是否启用全屏控件。默认值是true
     fullscreenButton: false,
     // 是否显示 3D/2D 选择器，右上角按钮
-    sceneModePicker: true,
+    sceneModePicker: false,
+    // 是否显示 Home 按钮，右上角 home 按钮
+    homeButton: false,
     // 指定场景模式。可以是3D、2D或Columbus View模式。默认值是Cesium.SceneMode.SCENE3D
     sceneMode: Cesium.SceneMode.SCENE2D,
   })
