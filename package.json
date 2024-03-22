@@ -8,10 +8,12 @@
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --build --force"
+    "type-check": "vue-tsc --build --force",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "cesium": "^1.115.0",
+    "gh-pages": "^6.1.1",
     "pinia": "^2.1.7",
     "sass": "^1.72.0",
     "vite-plugin-cesium": "^1.2.22",
