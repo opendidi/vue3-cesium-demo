@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion:
+ * @version: 1.0.0
+ * @Author: htang
+ * @Date: 2024-03-22 09:35:48
+ * @LastEditors: htang
+ * @LastEditTime: 2024-03-22 10:48:58
+-->
 ```html
 在 Vite 中配置 SCSS 支持相对简单，因为 Vite 使用了 PostCSS 和相关的预处理器插件来处理样式文件。下面是如何在 Vite 项目中配置 SCSS 支持的步骤：
 
@@ -56,4 +64,5 @@ yarn dev
 
 ```html
 参考：https://github.com/hawk86104/vue3-ts-cesium-map-show/blob/master/src/utils/ctrlCesium/Controller.ts
+https://zhuanlan.zhihu.com/p/659347515
 ```
