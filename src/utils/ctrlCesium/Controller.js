@@ -4,19 +4,19 @@
  * @Author: htang
  * @Date: 2024-03-22 09:35:48
  * @LastEditors: htang
- * @LastEditTime: 2024-03-22 11:10:11
+ * @LastEditTime: 2024-03-22 15:24:28
  */
 import * as Cesium from 'cesium';
 
 class Controller {
-  viewer: any
+  viewer
   constructor() {
     this.init_data()
   }
   init_data() {
     this.viewer = null
   }
-  init(BaseMapConfig: any) {
+  init(BaseMapConfig) {
     const mapID = 'cesiumContainer'
     let vConfig = {
       // 指定是否启用动画控件。默认值是true
@@ -41,7 +41,7 @@ class Controller {
     this.viewer = viewer;
     return viewer
   }
-  setView(viewer: any, { lon, lat, height }) {
+  setView(viewer, { lon, lat, height }) {
     // 设置初始位置
     viewer.camera.setView({
       // 经度，纬度，高度
@@ -54,7 +54,7 @@ class Controller {
     });
   }
   // 消除锯齿
-  removeJagged(viewer: any) {
+  removeJagged(viewer) {
     viewer.scene.postProcessStages.fxaa.enabled = false
     viewer.scene.fxaa = false
     const supportsImageRenderingPixelated =
