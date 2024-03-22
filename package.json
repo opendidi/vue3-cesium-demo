@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -15,6 +15,7 @@
     "cesium": "^1.115.0",
     "gh-pages": "^6.1.1",
     "pinia": "^2.1.7",
+    "progress": "^2.0.3",
     "sass": "^1.72.0",
     "vite-plugin-cesium": "^1.2.22",
     "vue": "^3.4.21",
