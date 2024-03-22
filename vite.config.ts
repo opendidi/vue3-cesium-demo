@@ -6,7 +6,7 @@ import cesium from 'vite-plugin-cesium'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'test-cesium',
+  base: 'vue3-cesium-demo',
   plugins: [
     vue(),
     cesium(),
