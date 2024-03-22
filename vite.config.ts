@@ -4,7 +4,7 @@
  * @Author: htang
  * @Date: 2024-03-22 09:35:48
  * @LastEditors: htang
- * @LastEditTime: 2024-03-22 09:45:54
+ * @LastEditTime: 2024-03-22 10:09:06
  */
 import { fileURLToPath, URL } from 'node:url'
 
@@ -14,7 +14,7 @@ import cesium from 'vite-plugin-cesium'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: 'vue3-cesium-demo',
+  base: 'vue3-cesium-demo',
   plugins: [
     vue(),
     cesium(),
